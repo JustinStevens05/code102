@@ -10,13 +10,10 @@ if (customerName!= null) {
 
 var r = confirm("Are you sure you typed your name right");
 
-if (r == true) {
+var rating = prompt("What would you rate the look of this website",);
 
-    x = "ok";
+if (rating!= null) {
 
-}
-else {
+    document.getElementById("rate").innerHTML =
 
-    x = "reloed the page and try again";
-
-}
+    "Thanks for the information";
