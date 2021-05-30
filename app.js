@@ -1,4 +1,4 @@
-var customerName = prompt("Please enter your name", "<name goes here>");
+var customerName = prompt("Please enter your name",);
 
 if (customerName!= null) {
 
