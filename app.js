@@ -17,3 +17,4 @@ if (rating!= null) {
     document.getElementById("rate").innerHTML =
 
     "Thanks for the information";
+}
