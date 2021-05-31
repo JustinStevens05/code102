@@ -1,25 +1,17 @@
 var customerName = prompt("Please enter your name",);
-
 if (customerName!= null) {
-
     document.getElementById("welcome").innerHTML =
-
     "Hello " + customerName + "! How are you today?";
-
 }
 
 var r = confirm("Are you sure you typed your name right");
 
-//var rating = 1
+function GFG_Fun() {
+            var img = new Image();
+            img.src = 
+https://media.salon.com/2013/08/shutterstock_55573504.jpg 
+            document.getElementById('body').appendChild(img);
+            down.innerHTML = "Image Element Added."; 
+        } 
 
-do{
-    var rating = prompt("do you think this website will be helpful please rate from 1 to 10",);
 
-    if (rating != null) {
-
-        document.getElementById("rate").innerHTML =
-
-        "When asked if you thought the website would be helpful you said " + rating;
-    }
-}
-while(rating = 1);
