@@ -10,9 +10,9 @@ if (customerName!= null) {
 
 var r = confirm("Are you sure you typed your name right");
 
-var rating = "none"
+var rating = 1
 
-while(rating !== 1){
+do{
     var rating = prompt("do you think this website will be helpful please rate from 1 to 10",);
 
     if (rating!= null) {
@@ -22,3 +22,4 @@ while(rating !== 1){
         "When asked if you thought the website would be helpful you said " + rating;
     }
 }
+while(rating = 1);
