@@ -6,10 +6,13 @@ if (customerName!= null) {
 
 var r = confirm("Are you sure you typed your name right");
 
-function GFG_Fun() {
-            var img = new Image();
-            img.src = 
-https://media.salon.com/2013/08/shutterstock_55573504.jpg 
-            document.getElementById('body').appendChild(img);
-            down.innerHTML = "Image Element Added."; 
-} 
+var rating = prompt("What would you rate the look of this website",);
+var rating = prompt("do you think this website will be helpful?",);
+
+if (rating!= null) {
+
+    document.getElementById("rate").innerHTML =
+
+    "Thanks for the information";
+    "When asked if you thought the website would be helpful you said " + rating;
+}
