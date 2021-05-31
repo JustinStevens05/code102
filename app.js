@@ -13,7 +13,7 @@ var r = confirm("Are you sure you typed your name right");
 var rating = 0
 
 while(rating < 1){
-    var rating = prompt("do you think this website will be helpful? please rate from 1 to 10",);
+    var rating = prompt("do you think this website will be helpful please rate from 1 to 10",);
 
     if (rating!= null) {
 
