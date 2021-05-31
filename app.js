@@ -15,7 +15,7 @@ var rating = 1
 do{
     var rating = prompt("do you think this website will be helpful please rate from 1 to 10",);
 
-    if (rating!= null) {
+    if (rating != null) {
 
         document.getElementById("rate").innerHTML =
 
