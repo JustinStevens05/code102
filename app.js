@@ -12,6 +12,4 @@ function GFG_Fun() {
 https://media.salon.com/2013/08/shutterstock_55573504.jpg 
             document.getElementById('body').appendChild(img);
             down.innerHTML = "Image Element Added."; 
-        } 
-
-
+} 
