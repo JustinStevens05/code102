@@ -10,7 +10,7 @@ if (customerName!= null) {
 
 var r = confirm("Are you sure you typed your name right");
 
-var rating = 1
+//var rating = 1
 
 do{
     var rating = prompt("do you think this website will be helpful please rate from 1 to 10",);
