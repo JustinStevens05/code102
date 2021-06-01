@@ -1,4 +1,4 @@
-var customerName = prompt("Please enter your name",);
+/* var customerName = prompt("Please enter your name",);
 if (customerName!= null) {
     document.getElementById("welcome").innerHTML =
     "Hello " + customerName + "! How are you today?";
@@ -11,3 +11,4 @@ if (rating!= null) {
     document.getElementById("rate").innerHTML =
     "Thanks for the information";
 }
+*/
