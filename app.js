@@ -1,5 +1,5 @@
 var r = "no";
-while(r= "no"){
+if(r= "no"){
     var customerName = prompt("Please enter your name",);
     if (customerName!= null) {
         document.getElementById("welcome").innerHTML =
