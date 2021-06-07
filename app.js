@@ -5,7 +5,7 @@ while(r= "no"){
         document.getElementById("welcome").innerHTML =
         "Hello " + customerName + "! How are you today?";
     }
-    r = prompt("Did you spell your name right?");
+    var r = prompt("Did you spell your name right?");
 }
 
 var rating = prompt("What would you rate the look of this website",);
