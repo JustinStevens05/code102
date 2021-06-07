@@ -9,7 +9,6 @@ while(r== "no"){
 }
 
 
-parseInt(howMany);
 for(howMany = prompt("how many images would you like",); howMany > 0; howMany - 1){
     var img = document.createElement("img"); 
  
