@@ -11,7 +11,7 @@ a{
   color: lightblue;
 }
 
-header{
+#header{
   border-style: groove;
   border-color: red;
   border-width: 4px;
