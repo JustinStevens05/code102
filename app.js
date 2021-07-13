@@ -1,3 +1,7 @@
+function double(number){
+    return number * 2;
+}
+
 var namecheck = "no";
 while(namecheck=== "no"){
     var visitorName = prompt("Please enter your name");
@@ -17,3 +21,8 @@ for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 
  
     src.appendChild(img); 
 }
+
+var favNumber = prompt("What is your favorite number?");
+double(favNumber);
+document.getElementById("number").innerHTML =
+"your number doubled is " + favNumber;
