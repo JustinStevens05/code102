@@ -3,7 +3,7 @@ while(namecheck=== "no"){
     var visitorName = prompt("Please enter your name");
     if (visitorName!== "") {
         document.getElementById("welcome").innerHTML =
-        "Hello " + "visistorName" + " welome to my website.";
+        "Hello " + visitorName + " welome to my website.";
     }
     namecheck = prompt("Did you spell your name right?");
 }
