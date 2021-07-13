@@ -22,7 +22,7 @@ for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 
     src.appendChild(img); 
 }
 
-var favNumber = prompt("What is your favorite number?");
-favNumber = double(favNumber);
+var numberOfPets = prompt("How many pets is to many");
+numberOfPets = double(numberOfPets);
 document.getElementById("number").innerHTML =
-"your number doubled is " + favNumber;
+"I think you should get " + numberOfPets + " pets";
