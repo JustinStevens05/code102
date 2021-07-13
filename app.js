@@ -23,6 +23,6 @@ for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 
 }
 
 var favNumber = prompt("What is your favorite number?");
-double(favNumber);
+favNumber = double(favNumber);
 document.getElementById("number").innerHTML =
 "your number doubled is " + favNumber;
