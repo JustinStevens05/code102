@@ -22,7 +22,16 @@ for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 
     src.appendChild(img); 
 }
 
-var numberOfPets = prompt("How many pets is to many");
-numberOfPets = double(numberOfPets);
-document.getElementById("number").innerHTML =
-"I think you should get " + numberOfPets + " pets";
+var petNumberLoop = 2;
+while(petNumberLoop = 1){
+    var numberOfPets = prompt("How many pets is to many");
+    if(numberOfPets !== 1){
+        numberOfPets = double(numberOfPets);
+        document.getElementById("number").innerHTML =
+        "I think you should get " + numberOfPets + " pets";
+        petNumberLoop = 1;
+    } else{
+        petNumberLoop = 2;
+    }
+}
+
