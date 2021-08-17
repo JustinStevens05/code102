@@ -23,7 +23,7 @@ for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 
 }
 
 var petNumberLoop = 2;
-while(petNumberLoop = 1){
+while(petNumberLoop != 1){
     var numberOfPets = prompt("How many pets is to many");
     if(numberOfPets !== 1){
         numberOfPets = double(numberOfPets);
