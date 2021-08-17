@@ -22,10 +22,16 @@ for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 
     src.appendChild(img); 
 }
 
+var isItANumber = true;
 var petNumberLoop = 2;
 while(petNumberLoop != 1){
     var numberOfPets = prompt("How many pets is to many");
     if(numberOfPets !== 1){
+        isItANumber = true;
+    } else{
+        isItANumber = false;
+    }    
+    if(isItANumber = true;){
         numberOfPets = double(numberOfPets);
         document.getElementById("number").innerHTML =
         "I think you should get " + numberOfPets + " pets";
