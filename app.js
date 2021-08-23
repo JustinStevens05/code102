@@ -1,7 +1,3 @@
-function double(number){
-    return number * 2;
-}
-
 function enterName() {
     var namecheck = "no";
     while(namecheck=== "no"){
@@ -30,7 +26,7 @@ function petNumber() {
     while(petNumberLoop != 1){
         var numberOfPets = prompt("How many pets is to many");
         if(isNaN(numberOfPets)= true){
-            numberOfPets = double(numberOfPets);
+            numberOfPets = numberOfPets * 2;
             document.getElementById("number").innerHTML =
             "I think you should get " + numberOfPets + " pets";
             petNumberLoop = 1;
