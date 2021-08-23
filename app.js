@@ -2,7 +2,7 @@ function double(number){
     return number * 2;
 }
 
-function enterName{
+function enterName() {
     var namecheck = "no";
     while(namecheck=== "no"){
         var visitorName = prompt("Please enter your name");
@@ -14,7 +14,7 @@ function enterName{
     }
 }
 
-function images{
+function images() {
     for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 1){
         var img = document.createElement("img"); 
  
@@ -25,17 +25,21 @@ function images{
     }
 }
     
-
-var petNumberLoop = 2;
-while(petNumberLoop != 1){
-    var numberOfPets = prompt("How many pets is to many");
-    if(isNaN(numberOfPets)= true){
-        numberOfPets = double(numberOfPets);
-        document.getElementById("number").innerHTML =
-        "I think you should get " + numberOfPets + " pets";
-        petNumberLoop = 1;
-    } else{
-        petNumberLoop = 2;
+function petNumber() {
+    var petNumberLoop = 2;
+    while(petNumberLoop != 1){
+        var numberOfPets = prompt("How many pets is to many");
+        if(isNaN(numberOfPets)= true){
+            numberOfPets = double(numberOfPets);
+            document.getElementById("number").innerHTML =
+            "I think you should get " + numberOfPets + " pets";
+            petNumberLoop = 1;
+        } else{
+            petNumberLoop = 2;
+        }
     }
 }
 
+enterName()
+images()
+petNumber()
