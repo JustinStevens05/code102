@@ -41,7 +41,6 @@ element.appendChild(document.createTextNode("Welcome message"));
 var page = document.getElementById("welcomeButton");
 page.appendChild(element);
 console.log(element);
-welcomeButton.addEventListener(“click”, enterName);
 
 enterName()
 displayImages()
