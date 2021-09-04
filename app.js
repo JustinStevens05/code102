@@ -37,8 +37,8 @@ function petNumber() {
 }
 
 var element = document.createElement("button");
-element.appendChild(document.createTextNode("Click Me!"));
-var page = document.getElementById("welcomButton");
+element.appendChild(document.createTextNode("Welcome message"));
+var page = document.getElementById("welcomeButton");
 page.appendChild(element);
 console.log(element);
 
