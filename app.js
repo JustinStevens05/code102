@@ -10,7 +10,7 @@ function enterName() {
     }
 }
 
-function images() {
+function diplayImages() {
     for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 1){
         var img = document.createElement("img"); 
  
@@ -36,6 +36,13 @@ function petNumber() {
     }
 }
 
+var element = document.createElement("button");
+element.appendChild(document.createTextNode("Click Me!"));
+var page = document.getElementById("btn");
+page.appendChild(element);
+console.log(element);
+
+
 enterName()
-images()
+displayImages()
 petNumber()
