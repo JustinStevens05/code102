@@ -36,10 +36,11 @@ function petNumber() {
     }
 }
 
-var btn = document.getElementById(“welcomeButton”);
-btn.addEventListener(“click”, enterName);
-}
-
+var element = document.createElement("button");
+element.appendChild(document.createTextNode("Click Me!"));
+var page = document.getElementById("welcomButton");
+page.appendChild(element);
+console.log(element);
 
 
 enterName()
