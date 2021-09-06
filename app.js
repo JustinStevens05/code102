@@ -10,7 +10,7 @@ function enterName() {
     }
 }
 
-function diplayImages() {
+function displayImages() {
     for(howMany = prompt("how many images would you like"); howMany > 0; howMany -= 1){
         var img = document.createElement("img"); 
  
@@ -25,13 +25,13 @@ function petNumber() {
     var petNumberLoop = 2;
     while(petNumberLoop != 1){
         var numberOfPets = prompt("How many pets is to many");
-        if(isNaN(numberOfPets)= true){
+        if(isNaN(numberOfPets)== false){
             numberOfPets = numberOfPets * 2;
             document.getElementById("number").innerHTML =
             "I think you should get " + numberOfPets + " pets";
             petNumberLoop = 1;
         } else{
-            petNumberLoop = 2;
+            confirm("You did not input a number, please try again")
         }
     }
 }
@@ -41,7 +41,8 @@ element.appendChild(document.createTextNode("Welcome message"));
 var page = document.getElementById("welcomeButton");
 page.appendChild(element);
 console.log(element);
+element.addEventListener("click", enterName);
 
-enterName()
-displayImages()
-petNumber()
+
+displayImages();
+petNumber();
